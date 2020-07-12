@@ -1,0 +1,98 @@
+nav{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	margin-left: 50px;
+	color: black
+}
+span{
+	margin-right: 750px;
+}
+header{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 25px;
+	background-color: green;
+	font-size: 20px;
+}	
+
+.skills{
+	display: inline-block;
+	width: 40%;
+}
+.ach{
+	display: inline-block;
+	width: 40%;
+	float: right;
+}
+.rar{
+	margin-left: 700px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+  font-family: Arial;
+}
+
+/* Center website */
+.main {
+  max-width: 900px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* Add padding BETWEEN each column (if you want) */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* Clear floats after rows */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Content */
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+
+footer{
+	margin-top: 100px;
+	clear: both;
+}
+footer a{
+	margin-right: 30px;
+	font-size: 40px;
+	color: black;	
+	margin-left: 15px;
+}
+footer nav{
+	margin-right: 600px;
+}
+footer span{
+	font-size: 10px;
+}

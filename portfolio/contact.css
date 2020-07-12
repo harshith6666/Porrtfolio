@@ -1,0 +1,65 @@
+nav{
+	display: inline-block;
+}
+nav a{
+	text-decoration: none;
+	margin-left: 50px;
+	color: black
+}
+header span{
+	margin-right: 750px;
+}
+header{
+	margin-bottom: 20px;
+	margin-top: 10px;
+	padding: 25px;
+	background-color: green;
+	font-size: 20px;	
+}	
+
+main{
+	margin-bottom: 10%;
+}
+main p:first-child{
+	border-top: solid 2px red;
+    margin-top: 18px;
+    font-size: 25px;
+    display: inline-block;
+    margin-left: 695px;
+    padding: 11px;
+}
+main p{
+	font-size: 20px;
+}
+.sec{
+	display: inline-block;
+	text-align: center;
+	margin-right: 189px;
+}
+.har{
+	margin-left: 300px;
+}
+.contact{
+	margin-top: 120px;
+}
+.icon{
+	font-size: 60px;
+}
+
+
+footer{
+	margin-top: 100px;
+	clear: both;
+}
+footer a{
+	margin-right: 30px;
+	font-size: 40px;
+	color: black;	
+	margin-left: 15px;
+}
+footer nav{
+	margin-right: 600px;
+}
+footer span{
+	font-size: 10px;
+}
